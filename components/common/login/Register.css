@@ -1,0 +1,73 @@
+.register{
+    background-color: rgb(255, 255, 255);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .registerform{
+   background-color: rgba(107, 153, 167, 0.514);
+   padding: 20px 60px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+ }
+ .logo{
+     font-size: 3vh;
+     font-weight: bolder;
+ }
+ .title{
+     font-size: 2vh;
+ 
+ }
+ form{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     justify-content: center;
+ }
+ input{
+     padding: 15px;
+     border: none;
+     width: 250px;
+     border-bottom: 1px solid #d7e2e9;
+ }
+ button{
+     background-color: rgb(37, 236, 210);
+     color: white;
+     padding: 10px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ p{
+     font-size: 15px;
+     margin-top: 10px;
+ }
+ img{
+     height: 40px;
+ }
+ label{
+     display: flex;
+     align-items: center;
+     gap: 3px;
+     font-size: 12px;
+     
+ }
+ .home{
+     background-color: cadetblue;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .container{
+     border: 1px solid white;
+     border-radius: 10px;
+     height: 80%;
+     width: 65%;
+     display: flex;
+     overflow: hidden;
+ 
+ }

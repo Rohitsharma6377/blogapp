@@ -1,0 +1,9 @@
+.empty{
+    display: flex;
+    justify-content: center;
+}
+.empty img{
+    background-size: cover;
+   
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+.blogitem{
+    display: flex;
+    flex-direction: column;
+
+}
+.cover{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+.blogitem h3{
+    margin: 0.5rem 0 1rem 0;
+    flex: 1;
+
+}
+ .blogdata{
+    position: relative;
+    max-height: 50px;
+    overflow: hidden;
+    font-size: .8rem;
+    padding-right: 0.6rem;
+    color: #a9a9a9;
+ }
+ .blogdata::before{
+    position: absolute;
+    content: "...";
+    bottom: 0;
+    right: 0;
+
+}
+.blogitem footer{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+
+}
+.linka{
+    text-decoration: none;
+   color: inherit;
+}
+.blogauth{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    height: 20px;
+
+}
+.blogauth img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 0.5rem;
+
+}
+.blogauth p {
+    font-size: .6rem;
+    color: #a9a9a9;
+    font-weight: 600;
+}
